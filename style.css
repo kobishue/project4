@@ -1,0 +1,119 @@
+﻿
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color: rgb(48, 48, 48);
+    }
+
+
+    h1 {
+      text-align: center;
+      font-size: 90px;
+    }
+}
+  
+
+
+
+/* General styling infomations */
+
+body 
+{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Silkscreen', cursive;
+}
+
+/* Text Style infomation */
+
+h1 
+{
+    color: rgb(0, 255, 8);
+    text-align: center;
+    font-style: oblique;
+    font-size: 60px;
+}
+
+h2
+{
+    color: rgb(0, 255, 8);
+    text-align: center;
+    font-style: oblique;
+    font-size: 120px;
+}
+
+p
+{
+    color: rgb(0, 255, 8);
+    text-align: center;
+    font-size: 15px;
+}
+
+ul
+{
+    color: rgb(0, 255, 8);
+    text-align: center;
+    font-size: 25px;
+}
+
+a:link, :visited
+{
+  color: rgb(0, 255, 8);
+}
+
+a:hover
+{
+  color: rgb(0, 255, 242);
+}
+
+
+
+
+
+
+/* image style info */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+/* Animation*/
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+.row {
+    width: 720px;
+    margin: 10px auto 10px auto;
+}
+
+.image-container {
+    display:table-cell;
+    vertical-align: middle;
+    padding: 30px;
+}
